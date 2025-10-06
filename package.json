@@ -1,0 +1,23 @@
+{
+  "name": "policy-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "multer": "^2.0.2",
+    "node-schedule": "^2.1.1",
+    "pidusage": "^3.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}
